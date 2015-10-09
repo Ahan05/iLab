@@ -14,8 +14,9 @@ int main()
 {
     char stish[256][256],p, *ukaz[256];
     int i,j = 0,n;
+    printf("Введите количество строк ");
     scanf("%d", &n);
-    gets(&p);
+    scanf("%char",&p);
     
     
     for (i=0; i < n; i++)
@@ -28,6 +29,8 @@ int main()
     
 
     sort(ukaz, n);
+    
+    printf("Отсортированный массив:\n");
     
     for (i=0; i < n; i++)
      printf("%s", ukaz[i]);
