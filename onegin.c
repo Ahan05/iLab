@@ -40,7 +40,7 @@ int main()
 }
 
 
-void sort(char** mass, const int m)  //mass-массив  m-количество элементов
+void sort(char** mass, const int m)  //mass-массив  m-количество строк
 {
     int t,j,ch;
     
