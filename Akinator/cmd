@@ -1,0 +1,8 @@
+#!/bin/bash
+cd /Users/Ahan/Documents/Инфа/1_course/akinator/stable_version/Akinator/Akinator
+gcc main.c -o out
+./out
+mv input.txt input_plus.txt
+mv input_new_tree.txt input.txt
+mv input_plus.txt input_new_tree.txt
+dot -Tpng output.txt -o graph.png
